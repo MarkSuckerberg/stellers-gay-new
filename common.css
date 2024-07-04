@@ -11,6 +11,22 @@ body {
 	display: grid;
 }
 
+.black-background {
+	background-color: black;
+}
+
+.jary {
+	height: 100%;
+	width: 100%;
+	image-rendering: auto;
+	object-fit: cover;
+	object-position: left;
+}
+
+.center {
+	text-align: center;
+}
+
 .gridcontainer {
 	display: grid;
 	background-color: #c0c0c0;
