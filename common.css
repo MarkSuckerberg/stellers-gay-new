@@ -1,0 +1,132 @@
+body {
+	color: black;
+	background-color: blue;
+	background-image: url("assets/win95setup.webp");
+	background-size: cover;
+	image-rendering: pixelated;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.headercontainer {
+	display: grid;
+}
+
+.gridcontainer {
+	display: grid;
+	background-color: #c0c0c0;
+	padding: 10px;
+
+	max-width: 1000px;
+	margin: 0 auto;
+
+	gap: 10px;
+
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(15, min(1fr, 45px));
+	grid-template-areas:
+		"header header header sidehead"
+		"header header header sidehead"
+		"nav nav nav nav"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"sidebar content content content"
+		"footer footer footer footer";
+}
+
+.gridcontainer > * {
+	text-align: center;
+	border: black 4px ridge;
+	border-top: white 4px ridge;
+	border-left: white 4px ridge;
+}
+
+.gridcontainer #header {
+	grid-area: header;
+}
+
+.gridcontainer #sidehead {
+	grid-area: sidehead;
+	border: white 4px groove;
+	border-top: black 4px groove;
+	border-left: black 4px groove;
+	background-color: #b0b0b0;
+}
+
+.gridcontainer #nav {
+	grid-area: nav;
+}
+
+.navcontainer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border: none;
+}
+
+.navcontainer a {
+	border: black 4px ridge;
+	border-top: white 4px ridge;
+	border-left: white 4px ridge;
+	line-height: 200%;
+	text-decoration: none;
+	color: black;
+}
+
+.navcontainer a:active {
+	border: white 4px groove;
+	border-top: black 4px groove;
+	border-left: black 4px groove;
+	background-color: #b0b0b0;
+	text-decoration: none;
+}
+
+.topcontainer {
+	border: none;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.topcontainer a {
+	flex-grow: 1;
+}
+
+.gridcontainer #sidebar {
+	grid-area: sidebar;
+}
+
+.gridcontainer #content {
+	grid-area: content;
+	text-align: left;
+	padding: 5px;
+	overflow-y: auto;
+}
+
+.gridcontainer #footer {
+	grid-area: footer;
+}
+
+.rainbow-divider {
+	background-image: url("https://pixelsafari.neocities.org/dividers/more/stripe3.gif");
+	background-repeat: repeat-x;
+	height: 9px;
+}
+
+.paperclip-divider {
+	background-image: url("https://pixelsafari.neocities.org/dividers/more/paperclips.gif");
+	background-repeat: repeat-x;
+	height: 28px;
+}
+
+figure > img {
+	width: 100%;
+	image-rendering: auto;
+}
+
