@@ -7,6 +7,10 @@ body {
 	font-family: "Courier New", Courier, monospace;
 }
 
+img {
+	image-rendering: auto;
+}
+
 .headercontainer {
 	display: grid;
 }
@@ -97,7 +101,7 @@ body {
 	border-left: white 4px ridge;
 	line-height: 200%;
 	text-decoration: none;
-	color: black;
+	color: unset;
 }
 
 .navcontainer a:active {
@@ -109,7 +113,6 @@ body {
 }
 
 .topcontainer {
-	border: none;
 	flex-direction: row;
 	justify-content: space-around;
 }
@@ -127,6 +130,12 @@ body {
 	text-align: left;
 	padding: 5px;
 	overflow-y: auto;
+	max-height: 75vh;
+}
+
+.gridcontainer #content img {
+	max-width: 100%;
+	image-rendering: auto;
 }
 
 .gridcontainer #footer {
@@ -137,16 +146,42 @@ body {
 	background-image: url("https://pixelsafari.neocities.org/dividers/more/stripe3.gif");
 	background-repeat: repeat-x;
 	height: 9px;
+	border: none;
 }
 
 .paperclip-divider {
 	background-image: url("https://pixelsafari.neocities.org/dividers/more/paperclips.gif");
 	background-repeat: repeat-x;
 	height: 28px;
+	border: none;
+}
+
+.x-divider {
+	background-image: url("https://pixelsafari.neocities.org/dividers/blackstitches.gif");
+	background-repeat: repeat-x;
+	height: 15px;
+	border: none;
+}
+
+.chain-divider {
+	background-image: url("https://pixelsafari.neocities.org/dividers/greenchain.gif");
+	background-repeat: repeat-x;
+	height: 11px;
+	border: none;
+}
+
+.powerline-divider {
+	background-image: url("https://pixelsafari.neocities.org/dividers/powerlines.gif");
+	background-repeat: repeat-x;
+	height: 31px;
+	border: none;
 }
 
 figure > img {
 	width: 100%;
-	image-rendering: auto;
+}
+
+ul.two-column {
+	column-count: 2;
 }
 
