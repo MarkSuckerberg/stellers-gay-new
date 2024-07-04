@@ -11,19 +11,19 @@
 	<body>
 		<header></header>
 		<div class="gridcontainer">
-			<header id="header">
+			<header id="header" hx-preserve="true">
 				<h1>Steller's Gay</h1>
 			</header>
 
-			<div id="sidehead"><img src="assets/bluejarybeast.png" alt="" class="jary" /></div>
+			<div id="sidehead" hx-preserve="true"><img src="assets/bluejarybeast.png" alt="" class="jary" /></div>
 
-			<nav id="nav" class="navcontainer topcontainer" hx-boost="true">
+			<nav id="nav" class="navcontainer topcontainer" hx-boost="true" hx-preserve="true">
 				<a href="/" accesskey="h"><u>H</u>ome</a>
 				<a href="/projects" accesskey="p"><u>P</u>rojects</a>
 				<a href="/media" accesskey="m"><u>M</u>edia</a>
 			</nav>
 
-			<nav id="sidebar" class="navcontainer">
+			<nav id="sidebar" class="navcontainer" hx-preserve="true">
 				<a href="https://bsky.app/profile/marksuckerberg.bsky.social" accesskey="b">My <u>B</u>luesky</a>
 				<a href="https://social.stellers.gay/" accesskey="f">My <u>F</u>ediverse Instance</a>
 				<a href="https://github.com/marksuckerberg" accesskey="g">My <u>G</u>ithub</a>
@@ -46,7 +46,7 @@
 				</a>
 			</main>
 
-			<footer id="footer"><noscript>No javascript, no funny quote!</noscript></footer>
+			<footer id="footer" hx-preserve="true"><noscript>No javascript, no funny quote!</noscript></footer>
 		</div>
 		<script src="assets/random.js"></script>
 	</body>
