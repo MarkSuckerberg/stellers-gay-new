@@ -22,6 +22,7 @@ const messages = [
 	"Is it Suckerberg or Suckerbird?",
 	"Have you looked at a bird today?",
 	"I joined the war on frames on the side of AJAX.",
+	"I looked up how to center an element with CSS at least 7 times in the making of this site.",
 ];
 
 document.getElementById("footer").textContent = messages[Math.floor(random * messages.length)];
