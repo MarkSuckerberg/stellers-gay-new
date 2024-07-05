@@ -176,6 +176,11 @@ img {
 	border: none;
 }
 
+.construction-image {
+	height: 38px;
+	width: 38px;
+}
+
 .x-divider {
 	background-image: url("assets/blackstitches.webp");
 	background-repeat: repeat-x;
