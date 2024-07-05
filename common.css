@@ -145,6 +145,17 @@ img {
 	grid-area: footer;
 }
 
+.animated-button {
+	height: 31px;
+	width: 88px;
+}
+
+.stamp {
+	height: 57px;
+	width: 99px;
+	object-fit: contain;
+}
+
 .rainbow-divider {
 	background-image: url("https://pixelsafari.neocities.org/dividers/more/stripe3.gif");
 	background-repeat: repeat-x;
