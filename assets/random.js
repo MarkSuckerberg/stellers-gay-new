@@ -1,6 +1,10 @@
 const random = Math.random();
 
-const quotes = fetch("/assets/quotes.json")
+const quotes = fetch("assets/quotes.json", {
+	method: "GET",
+	credentials: "include",
+	mode: "no-cors",
+})
 	.then((response) => response.json())
 	.then((data) => data.quotes);
 
