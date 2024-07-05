@@ -14,7 +14,7 @@
 				<h1>Steller's Gay</h1>
 			</header>
 
-			<div id="sidehead" hx-preserve="true"><img src="assets/bluejarybeast.png" alt="A large raptorlike bluejay-patterned creature laying down, asleep." class="jary" /></div>
+			<aside id="sidehead" hx-preserve="true"><img src="assets/bluejarybeast.png" alt="A large raptorlike bluejay-patterned creature laying down, asleep." class="jary" /></aside>
 
 			<nav id="nav" class="navcontainer topcontainer" hx-boost="true">
 				<a href="/" accesskey="h"><u>H</u>ome</a>
@@ -23,49 +23,54 @@
 			</nav>
 
 			<nav id="sidebar" class="navcontainer" hx-preserve="true">
-				<a href="https://bsky.app/profile/marksuckerberg.bsky.social" accesskey="b" title="I don't use this much!">My <u>B</u>luesky</a>
-				<a href="https://social.stellers.gay/" accesskey="f" title="I just think it's neat to have!">My <u>F</u>ediverse Instance</a>
-				<a href="https://github.com/marksuckerberg" accesskey="g" title="My favourite social media.">My <u>G</u>ithub</a>
-				<a href="https://tumblr.suckerberg.gay" accesskey="t" title="My most-used platform.">My <u>T</u>umblog</a>
+				<a target="_blank" rel="me" href="https://bsky.app/profile/marksuckerberg.bsky.social" accesskey="b" title="I don't use this much!">My <u>B</u>luesky</a>
+				<a target="_blank" rel="me nofollow" href="https://discord.com/users/525509257102098442" accesskey="d">My <u>D</u>iscord</a>
+				<a target="_blank" rel="me" href="https://social.stellers.gay/" accesskey="f" title="I just think it's neat to have!">My <u>F</u>ediverse Instance</a>
+				<a target="_blank" rel="me" href="https://github.com/marksuckerberg" accesskey="g" title="My favourite social media.">My <u>G</u>ithub</a>
+				<a target="_blank" rel="me" href="https://tumblr.suckerberg.gay" accesskey="t" title="My most-used platform.">My <u>T</u>umblog</a>
 
-				<a href="https://www.free-website-hit-counter.com" class="black-background" title="Watch the hits roll in!"><img src="https://www.free-website-hit-counter.com/c.php?d=9&id=174194&s=288" alt="Free Website Hit Counter" /></a>
+				<a target="_blank" href="https://www.free-website-hit-counter.com" class="black-background" title="Watch the hits roll in!"><img src="https://www.free-website-hit-counter.com/c.php?d=9&id=174194&s=288" alt="Free Website Hit Counter" /></a>
 
 				<a href="mailto:mark@stellers.gay" accesskey="e" title="No spam, plz!"><u>E</u>-mail me!</a>
-				<a href="https://ko-fi.com/marksuckerberg" accesskey="k" title="EXTREMELY appreciated!">Buy me a <u>K</u>o-Fi!</a>
+				<a target="_blank" rel="me" href="https://ko-fi.com/marksuckerberg" accesskey="k" title="EXTREMELY appreciated!">Buy me a <u>K</u>o-Fi!</a>
 			</nav>
 
 			<main id="content">
-				<p class="construction"><img src="assets/construction.gif" alt="An animated diamond-shaped construction sign with a stick figure worker shoveling dirt." /> Warning! This page is under construction. Be sure to check back soon!</p>
+				<p id="construction" class="construction" hx-preserve="true"><img src="assets/construction.gif" alt="An animated diamond-shaped construction sign with a stick figure worker shoveling dirt." /> Warning! This page is under construction. Be sure to check back soon!</p>
 
-				<h2>Projects</h2>
+				<section id="projects">
+					<h2>Projects</h2>
 
-				<ul>
-					<li><a href="https://github.com/blocktest-game/blocktest">Blocktest</a> - heavily wip 2d block builder</li>
-					<li><a href="https://github.com/shiptest-ss13/shiptest">Shiptest</a> - ss13 server focusing on ships</li>
-					<li><a href="https://github.com/MarkSuckerberg/txtumblr">txTumblr</a> - the best tumblr embeds ever</li>
-					<li><a href="https://fortuna.suckerberg.gay/">Tabletuna</a> - site for a fanmade <a href="https://cosmosdex.com">fortuna</a> ttrpg</li>
-					<li><a href="https://github.com/MarkSuckerberg/Stellers-Gay-New">Steller's Gay</a>- this site! how amazing!</li>
-					<li>Numerous unnamed games, scripts, sketches, and more</li>
-				</ul>
+					<ul>
+						<li><a href="https://github.com/blocktest-game/blocktest">Blocktest</a> - heavily wip 2d block builder</li>
+						<li><a href="https://github.com/shiptest-ss13/shiptest">Shiptest</a> - ss13 server focusing on ships</li>
+						<li><a href="https://github.com/MarkSuckerberg/txtumblr">txTumblr</a> - the best tumblr embeds ever</li>
+						<li><a href="https://fortuna.suckerberg.gay/">Tabletuna</a> - site for a fanmade <a href="https://cosmosdex.com">fortuna</a> ttrpg</li>
+						<li><a href="https://github.com/MarkSuckerberg/Stellers-Gay-New">Steller's Gay</a>- this site! how amazing!</li>
+						<li>Numerous unnamed games, scripts, sketches, and more</li>
+					</ul>
+				</section>
 
 				<hr class="paperclip-divider" />
 
-				<h2>Interests</h2>
+				<section id="interests">
+					<h2>Interests</h2>
 
-				<ul class="two-column">
-					<li>Birds</li>
-					<li>Dinosaurs</li>
-					<li>Coding</li>
-					<li>Systems Administration</li>
-					<li>Game Dev</li>
-					<li>Tabletop RPGs</li>
-					<li>Cooking</li>
-					<li>Old Computers</li>
-					<li>Homebrew and Modding</li>
-					<li>Art</li>
-					<li>Tennis</li>
-					<li>Did I mention birds?</li>
-				</ul>
+					<ul class="two-column">
+						<li>Birds</li>
+						<li>Dinosaurs</li>
+						<li>Coding</li>
+						<li>Systems Administration</li>
+						<li>Game Dev</li>
+						<li>Tabletop RPGs</li>
+						<li>Cooking</li>
+						<li>Old Computers</li>
+						<li>Homebrew and Modding</li>
+						<li>Art</li>
+						<li>Tennis</li>
+						<li>Did I mention birds?</li>
+					</ul>
+				</section>
 			</main>
 
 			<footer id="footer" hx-preserve="true"><noscript>No javascript, no funny quote!</noscript></footer>

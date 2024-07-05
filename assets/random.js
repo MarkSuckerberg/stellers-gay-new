@@ -20,6 +20,8 @@ const messages = [
 	"Birds.",
 	"Isn't Chicago in Denver?",
 	"Is it Suckerberg or Suckerbird?",
+	"Have you looked at a bird today?",
+	"I joined the war on frames on the side of AJAX.",
 ];
 
 document.getElementById("footer").textContent = messages[Math.floor(random * messages.length)];
