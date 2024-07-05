@@ -19,6 +19,12 @@ img {
 	background-color: black;
 }
 
+.hit-counter {
+	height: 21px;
+	width: 144px;
+	background-image: url("assets/empty.webp");
+}
+
 .construction {
 	background-color: #f70;
 }
@@ -157,35 +163,35 @@ img {
 }
 
 .rainbow-divider {
-	background-image: url("https://pixelsafari.neocities.org/dividers/more/stripe3.gif");
+	background-image: url("assets/stripe3.webp");
 	background-repeat: repeat-x;
 	height: 9px;
 	border: none;
 }
 
 .paperclip-divider {
-	background-image: url("https://pixelsafari.neocities.org/dividers/more/paperclips.gif");
+	background-image: url("assets/paperclips.webp");
 	background-repeat: repeat-x;
 	height: 28px;
 	border: none;
 }
 
 .x-divider {
-	background-image: url("https://pixelsafari.neocities.org/dividers/blackstitches.gif");
+	background-image: url("assets/blackstitches.webp");
 	background-repeat: repeat-x;
 	height: 15px;
 	border: none;
 }
 
 .chain-divider {
-	background-image: url("https://pixelsafari.neocities.org/dividers/greenchain.gif");
+	background-image: url("assets/greenchain.webp");
 	background-repeat: repeat-x;
 	height: 11px;
 	border: none;
 }
 
 .powerline-divider {
-	background-image: url("https://pixelsafari.neocities.org/dividers/powerlines.gif");
+	background-image: url("assets/powerlines.webp");
 	background-repeat: repeat-x;
 	height: 31px;
 	border: none;
