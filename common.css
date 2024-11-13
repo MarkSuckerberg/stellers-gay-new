@@ -17,12 +17,12 @@ img {
 
 .black-background {
 	background-color: black;
+	height: 32px;
 }
 
 .hit-counter {
-	height: 21px;
-	width: 144px;
-	background-image: url("assets/empty.webp");
+	height: 31px;
+	width: 160px;
 }
 
 .construction {
